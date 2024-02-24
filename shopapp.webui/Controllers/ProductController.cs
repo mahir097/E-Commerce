@@ -12,7 +12,19 @@ namespace shopapp.webui.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            //ViewBag 
+            //Model
+            //ViewData
+
+            var product = new Product{Name = "Ipone 6", Price = "6000", Description = "Güzel Telefon"};
+
+            // ViewData["Category"] = "Telefon";
+            // ViewData["Product"] = product;
+
+            ViewBag.Category = "Telefonlar";
+            // ViewBag.Product = product;
+
+            return View(product);
         }
 
         //localhost:5000/product/list
