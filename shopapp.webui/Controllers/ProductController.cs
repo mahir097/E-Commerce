@@ -9,6 +9,11 @@ namespace shopapp.webui.Controllers
 {
     public class ProductController:Controller
     {
+        public string Index()
+        {
+            return "product/index";
+        }
+
         //localhost:5000/product/list
         public string List()
         {
@@ -16,9 +21,9 @@ namespace shopapp.webui.Controllers
         }
 
         //localhost:5000/product/details
-        public string Details()
+        public string Details(int id)
         {
-            return "product/details";
+            return "product/details/"+id;
         }
     }
 }

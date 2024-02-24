@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\demir\\Documents\\GitHub\\E-Commerce\\shopapp.webui\\shopapp.webui.csproj",
+      "projectUniqueName": "C:\\Users\\demir\\OneDrive\\Documents\\GitHub\\E-Commerce\\shopapp.webui\\shopapp.webui.csproj",
       "projectName": "shopapp.webui",
-      "projectPath": "C:\\Users\\demir\\Documents\\GitHub\\E-Commerce\\shopapp.webui\\shopapp.webui.csproj",
+      "projectPath": "C:\\Users\\demir\\OneDrive\\Documents\\GitHub\\E-Commerce\\shopapp.webui\\shopapp.webui.csproj",
       "packagesPath": "C:\\Users\\demir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\demir\\Documents\\GitHub\\E-Commerce\\shopapp.webui\\obj\\",
+      "outputPath": "C:\\Users\\demir\\OneDrive\\Documents\\GitHub\\E-Commerce\\shopapp.webui\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.425\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
       }
     }
   }
