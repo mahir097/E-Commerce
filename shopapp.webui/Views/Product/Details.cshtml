@@ -1,3 +1,5 @@
+@model shopapp.webui.Models.Product
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +8,8 @@
     <title>Product</title>
 </head>
 <body>
-    product/details
+    Ürün Adı: @Model.Name<br>
+    Ürün Fiyatı: @Model.Price <br>
+    Ürün Açıklaması: @Model.Description <br>
 </body>
 </html>
