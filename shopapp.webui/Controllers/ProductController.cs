@@ -9,21 +9,21 @@ namespace shopapp.webui.Controllers
 {
     public class ProductController:Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "product/index";
+            return View();
         }
 
         //localhost:5000/product/list
-        public string List()
+        public IActionResult List()
         {
-            return "product/list";
+            return View();
         }
 
         //localhost:5000/product/details
-        public string Details(int id)
+        public IActionResult Details(int id)
         {
-            return "product/details/"+id;
+            return View();
         }
     }
 }
