@@ -33,8 +33,9 @@ namespace shopapp.webui.Controllers
         {
             var products = new List<Product>
             {
-                new Product{Name = "Iphone 12", Price = "4000", Description = "Harika Telefon"},
-                new Product{Name = "Iphone 15", Price = "5000", Description = "Mükemmel Telefon"}
+                new Product{Name = "Iphone 12", Price = "4000", Description = "Harika Telefon", IsApproved = false},
+                new Product{Name = "Iphone 13", Price = "4500", Description = "Güzel Telefon", IsApproved = true},
+                new Product{Name = "Iphone 15", Price = "5000", Description = "Mükemmel Telefon", IsApproved = true},
             };
 
             var category = new Category{Name = "Telefonlar", Description = "Cep Telefonları"};
